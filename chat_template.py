@@ -5,7 +5,7 @@ from langchain.prompts.chat import (
     SystemMessagePromptTemplate,
     HumanMessagePromptTemplate,
 )
-chat = ChatOpenAI(openai_api_key="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")
+chat = ChatOpenAI(openai_api_key="###")
 template = "###"
 system_prompt = SystemMessagePromptTemplate.from_template(template)
 human = "### {var} ### {var2}"
